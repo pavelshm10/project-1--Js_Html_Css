@@ -1,0 +1,72 @@
+body{
+    background: url("/assets/images/saham.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;    
+}
+
+@font-face {
+    font-family: font;
+    src: url("/assets/amatic-sc/AmaticSC-Bold.ttf");
+}
+
+h1 {
+    text-align: center;
+    font-family: font;
+    font-size: 70px;
+}
+
+form{
+    position: absolute;
+    background: url("/assets/images/page.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;   
+    left:20%;
+    right:20%; 
+    text-align: center;
+}
+
+label{
+    position: absolute;
+    left:70px; 
+    font-weight: bold;
+}
+
+input{
+   position: absolute;
+   right:22%;
+   width:40%;
+   background-color:transparent;
+}
+
+#con{
+    position: relative;
+    top: 150px;
+    left: 20px;
+    margin:auto;
+    float:left;
+    float: buttom;
+}
+
+section:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
